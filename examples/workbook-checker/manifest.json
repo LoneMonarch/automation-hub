@@ -1,0 +1,14 @@
+{
+  "id": "workbook-checker",
+  "name": "Workbook Checker",
+  "version": "1.0.0",
+  "released": "2026-11-17",
+  "summary": "Check Excel workbook integrity without an internet connection.",
+  "description": "Checks whether Excel workbooks are readable ZIP containers with required workbook metadata. Does not validate contact columns or upload any data.",
+  "release_notes": "Initial offline example module.",
+  "platforms": ["windows", "macos"],
+  "api_version": 1,
+  "host_version": ">=1.0,<2",
+  "dependencies": [],
+  "entrypoint": "entry.py"
+}
